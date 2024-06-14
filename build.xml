@@ -211,6 +211,26 @@
       </libraryjar>
 
       <dontnote filter="proguard.configuration.ConfigurationLogger" />
+      <!-- These dontnote lines are using to skip duplicate classes note. -->
+      <dontnote filter="com.google.appinventor.components.**" />
+      <dontnote filter="org.json.**" />
+      <dontnote filter="com.google.gson.**" />
+      <dontnote filter="com.google.common.base.**" />
+      <dontnote filter="com.google.common.cache.**" />
+      <dontnote filter="com.google.common.collect.**" />
+      <dontnote filter="com.google.common.eventbus.**" />
+      <dontnote filter="com.google.common.hash.**" />
+      <dontnote filter="com.google.common.io.**" />
+      <dontnote filter="com.google.common.net.**" />
+      <dontnote filter="com.google.common.reflect.**" />
+      <dontnote filter="com.google.common.util.concurrent.**" />
+      <dontnote filter="android.net.http.**" />
+      <dontnote filter="org.apache.http.**" />
+      <dontnote filter="com.google.common.primitives.**" />
+      <dontnote filter="com.google.common.math.**" />
+      <dontnote filter="org.apache.commons.pool2.**" />
+      <dontnote filter="com.google.common.annotations.**" />
+      <dontnote filter="com.google.appinventor.common.version.**" />
       <adaptresourcefilecontents filter="proguard/ant/task.properties" />
     </proguard>
 
